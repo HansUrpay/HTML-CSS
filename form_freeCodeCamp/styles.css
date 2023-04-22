@@ -1,0 +1,105 @@
+body {
+  width: 100%;
+  /* height: 100vh; */
+  margin: 0;
+  background: linear-gradient(rgb(100, 200, 100), rgb(200, 200, 50));
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-image: url(student.jpg);
+  background-size: cover;
+  /* background-position: center; */
+  background-attachment: fixed;
+  color: white;
+}
+
+h1,
+p {
+  text-align: center;
+  /* margin: 10px */
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 35px;
+  margin: 40px 0 0 0;
+}
+
+p {
+  margin: 5px 0 30px 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 45%;
+  min-width: 20%;
+  margin: auto;
+}
+
+form {
+  padding: 20px;
+  margin: 15px auto;
+  background: rgba(43, 36, 77, 0.9);
+  border-radius: 10px;
+}
+
+.resaltar {
+  font-size: 16px;
+  align-items: center;
+}
+
+fieldset {
+  width: 90%;
+  min-width: 100px;
+  border: none;
+  padding: 7px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  height: 2rem;
+  border-radius: 5px;
+  margin: 10px auto;
+  text-indent: 5px;
+}
+
+select {
+  height: 2.375rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+textarea {
+  border-radius: 0;
+  height: 5rem;
+  margin: 0 auto;
+}
+
+.inline,
+.improved {
+  width: 18px;
+  height: 18px;
+  border-radius: 5px;
+  margin: 0 5px;
+  text-indent: 5px;
+  vertical-align: middle;
+}
+
+#submit {
+  width: 90%;
+  display: block;
+  margin: auto;
+  height: 3rem;
+  background-color: rgb(106, 200, 106);
+  border-radius: 5px;
+  margin-left: 36px;
+}
